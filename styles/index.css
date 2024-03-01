@@ -1,0 +1,10 @@
+:root{
+    --branco: #ffff;
+    --branco-rosado: #fefae0;
+    --vermelho: #8d0801;
+    --verde: #31572c;
+}
+
+header{
+    background-color: var(--branco-rosado);
+}
