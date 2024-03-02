@@ -1,10 +1,21 @@
-:root{
+:root {
     --branco: #ffff;
     --branco-rosado: #fefae0;
     --vermelho: #8d0801;
     --verde: #31572c;
 }
 
-header{
+p {
+    /*width: 100px;*/
+    text-indent: 2em;
+    margin: 30px;
+}
+
+.texto-sobre{
+    background-color: aqua;
+}
+
+header, footer {
     background-color: var(--branco-rosado);
+    color: var(--vermelho);
 }
