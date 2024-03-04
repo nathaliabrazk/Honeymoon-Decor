@@ -5,6 +5,22 @@
     --verde: #31572c;
 }
 
+
+/*Menu suspenso*/
+.catalogo-link:hover + .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    z-index: 1000;
+    background-color: rgb(35, 167, 207); 
+    border: 1px solid #ccc; /* Adicione uma borda ao redor do menu suspenso */
+    transition: opacity 0.5s ease; /* Adicione uma transição de opacidade */
+    transition-delay: 0.5s; /* Aumente o tempo de atraso da transição */
+}
+
 p {
     /*width: 100px;*/
     text-indent: 2em;
